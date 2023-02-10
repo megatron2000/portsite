@@ -1,0 +1,7 @@
+@mixin bp($point) {
+  @if $point == mobile {
+    @media (max-width: 576px) {
+      @content;
+    }
+  }
+}
