@@ -5,8 +5,5 @@
 </template>
 
 <style lang="scss" scoped>
-footer {
-  background: $black100;
-  color: $white100;
-}
+
 </style>

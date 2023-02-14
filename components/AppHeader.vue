@@ -1,12 +1,9 @@
 <template>
   <header>
-    <div class="logo">Name & Surname</div>
+    <div class="logo"><nuxt-link to="/">Name Surname</nuxt-link></div>
   </header>
 </template>
 
 <style lang="scss" scoped>
-header {
-  background: $black100;
-  color: $white100;
-}
+
 </style>
