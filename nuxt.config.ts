@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     title: 'portsite'
   },
   components: true,
+  modules: [
+    '@nuxt/image-edge',
+  ],
   vite: {
     css: {
       preprocessorOptions: {
